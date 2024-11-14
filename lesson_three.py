@@ -9,5 +9,6 @@ print('+')
 print(chr(89))
 print(chr(79))
 print(chr(85))
+name = 'Daniil'
 
 
