@@ -15,6 +15,7 @@ ANSWER_FOUR = 'Алюміній'
 ANSWER_FIVE = '7'
 
 
+
 question_one = pw_input(label='Яка планета є найбільшою у Сонячній системі')
 
 question_two = pw_input(label='Яка планета є найбільшою у Сонячній системі')
