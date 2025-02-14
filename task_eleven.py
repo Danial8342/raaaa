@@ -1,4 +1,4 @@
-def send_bad_marks_to_parents(slownyk):
+def stricha_for_ten_long(slownyk):
     strichkas = []
     for strichka in slownyk:
         if len(strichka) > 10:
@@ -6,4 +6,4 @@ def send_bad_marks_to_parents(slownyk):
     print(strichkas)
 
 
-send_bad_marks_to_parents(["short", "muchlongerstring", "raaa", "adequate", "extremelylongstringexample"])
+stricha_for_ten_long(["short", "muchlongerstring", "raaa", "adequate", "extremelylongstringexample"])
