@@ -42,4 +42,5 @@ if question_five == ANSWER_FIVE:
     good_answers += 1
 
 
+
 put_text(f'Ви правильно відповіли на {good_answers} з 5 запитань.')
