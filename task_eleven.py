@@ -6,4 +6,4 @@ def stricha_for_ten_long(slownyk):
     print(strichkas)
 
 
-stricha_for_ten_long(["short", "muchlongerstring", "raaa", "adequate", "extremelylongstringexample"])
+stricha_for_ten_long([" short", "muchlongerstring", "raaa", "adequate", "extremelylongstringexample"])
