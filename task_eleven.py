@@ -1,18 +1,21 @@
-def stricha_for_ten_long(slownyk):
-    strichkas = []
-    for strichka in slownyk:
-        if len(strichka) > 10:
-            strichkas.append(strichka)
-    print(strichkas)
+def function_work_with_stroke(list_of_words) -> list[str]:
+    strings = []
+    for str in list_of_words:
+        if len(str) > 10:
+            strings.append(str)
+    print(strings)
+    return strings
 
-def is_konsisd(slownyk):
-    is_konsisd_hand = False
-    for word in slownyk:
+def is_сonsist(list_of_words) -> bool:
+    is_сonsist = False
+    for word in list_of_words:
         if word  == "hand":
-            is_konsisd_hand = True
-            print(is_konsisd_hand)
+            is_сonsist = True
+            break
+        else: is_сonsist=False
+    print(is_сonsist)
+    return is_сonsist
 
-
-stricha_for_ten_long([" short", "muchlongerstring", "hand", "adequate", "extremelylongstringexample"])
-is_konsisd([" short", "muchlongerstring", "hand", "adequate", "extremelylongstringexample"])
+function_work_with_stroke([" short", "muchlongerstring", "hand", "adequate", "extremelylongstringexample"])
+is_сonsist([" short", "muchlongerstring", "hand", "adequate", "extremelylongstringexample"])
 
