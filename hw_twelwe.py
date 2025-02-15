@@ -25,5 +25,5 @@ print(unique_strings)
 
 budget = 100.50
 price = 500.35
-answer = is_shopping(budget, price)
-print(answer)
+my_answer = is_shopping(budget, price)
+print(my_answer)
