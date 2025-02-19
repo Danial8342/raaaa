@@ -1,0 +1,1 @@
+THIRD_CONSTANT = 'Учень {name}'
